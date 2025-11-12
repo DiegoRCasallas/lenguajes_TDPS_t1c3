@@ -38,13 +38,15 @@ FIRST = {
     'F': ['(', 'numero']
 }
 
+
+```
 ## Conjuntos FOLLOW
 ```
 FOLLOW = {'E': ['$', '+', '-', ')'],
     'T': ['$', '+', '-', '*', '/', ')'],
     'F': ['$', '+', '-', '*', '/', ')']
 }
-
+```
 ## Tabla de predicción (PREDICT) — simplificada
 ```
 PREDICT = {
