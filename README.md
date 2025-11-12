@@ -14,7 +14,9 @@ La gramática que analiza el programa es la clásica para expresiones aritmétic
 
 E  → T E'
 
-# Gramática con atributos
+## Gramática con atributos
+
+```
 E  → E₁ + T    { E.valor = E₁.valor + T.valor }
 E  → E₁ - T    { E.valor = E₁.valor - T.valor }
 E  → T         { E.valor = T.valor }
@@ -25,6 +27,7 @@ T  → F         { T.valor = F.valor }
 
 F  → ( E )     { F.valor = E.valor }
 F  → número    { F.valor = número.valor }
+```
 
 ## Conjuntos FIRST
 ```
