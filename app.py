@@ -258,7 +258,7 @@ def main():
             print("Árbol AST:")
             print(arbol)
             
-            print("\nArte ASCII del árbol:")
+            print("\nArbol:")
             print(arbol.dibujar_ascii())
             
             print(f"\nResultado: {arbol.atributo}")
